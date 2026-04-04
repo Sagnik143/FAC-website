@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png"; // ✅ ADD THIS
 
 function Navbar() {
   const location = useLocation();
@@ -19,7 +18,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src={logo}
+            src="/logo.png"
             alt="FAC Logo"
             className="h-10 w-10 object-contain"
           />

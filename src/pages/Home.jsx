@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import logo from "../assets/logo.png";
+
 import { useNavigate } from "react-router-dom";
 import { FaPaintBrush } from "react-icons/fa";
 
@@ -13,7 +13,7 @@ function Home() {
       <div className="relative flex flex-col items-center justify-center h-screen text-center px-4 overflow-hidden">
         {/* Background Logo */}
         <img
-          src={logo}
+          src="/logo.png"
           alt="bg logo"
           className="absolute opacity-10 w-[450px] md:w-[650px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  animate-float pointer-events-none"
         />
