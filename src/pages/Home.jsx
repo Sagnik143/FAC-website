@@ -15,13 +15,13 @@ function Home() {
         <img
           src={logo}
           alt="bg logo"
-          className="absolute opacity-20 w-[450px] md:w-[650px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-md animate-float pointer-events-none"
+          className="absolute opacity-10 w-[450px] md:w-[650px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  animate-float pointer-events-none"
         />
         {/* Glow Effect */}
 <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-pink-500 via-orange-400 to-yellow-400 opacity-10 blur-3xl rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
         {/* Heading */}
-        <h1 className="flex items-center justify-center gap-4 text-5xl md:text-7xl font-extrabold">
+        <h1 className="flex items-center justify-center gap-4 text-5xl md:text-7xl font-[Pacifico]">
           {/* Animated Text */}
           <span>
             {Array.from("Fine Arts Club").map((char, index) => (

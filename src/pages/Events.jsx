@@ -3,69 +3,85 @@ import Navbar from "../components/Navbar";
 
 const events = [
   {
-    title: "Art Exhibition",
+    title: "AYAAM",
     date: "March 2026",
-    status: "Upcoming",
-    image: "https://source.unsplash.com/400x300/?art",
-    gallery: [
-      "https://source.unsplash.com/600x400/?painting",
-      "https://source.unsplash.com/600x400/?gallery",
-      "https://source.unsplash.com/600x400/?artwork",
-    ],
-  },
-  {
-    title: "Photography Walk",
-    date: "Feb 2026",
     status: "Completed",
-    image: "https://source.unsplash.com/400x300/?photography",
+    image: "src/assets/Ayaam/Ayaamlogo.png",
     gallery: [
-      "https://source.unsplash.com/600x400/?camera",
-      "https://source.unsplash.com/600x400/?street",
-      "https://source.unsplash.com/600x400/?nature",
+      "src/assets/Ayaam/WhatsApp Image 2026-04-03 at 2.22.30 PM.jpeg",
+      "src/assets/Ayaam/WhatsApp Image 2026-04-03 at 2.22.31 PM (1).jpeg",
+      "src/assets/Ayaam/WhatsApp Image 2026-04-03 at 2.22.31 PM (2).jpeg",
+      "src/assets/Ayaam/WhatsApp Image 2026-04-03 at 2.22.31 PM.jpeg",
+      "src/assets/Ayaam/WhatsApp Image 2026-04-03 at 6.06.29 PM.jpeg",
     ],
   },
   {
-    title: "Dance Workshop",
-    date: "Jan 2026",
+    title: "MOKSHA",
+    date: "###",
     status: "Completed",
-    image: "https://source.unsplash.com/400x300/?dance",
+    image: "src/assets/Moskha/Mokshalogo.png",
     gallery: [
-      "https://source.unsplash.com/600x400/?dance",
-      "https://source.unsplash.com/600x400/?performance",
-      "https://source.unsplash.com/600x400/?stage",
+      "src/assets/Moskha/WhatsApp Image 2026-04-03 at 2.22.18 PM (1).jpeg" ,
+      "src/assets/Moskha/WhatsApp Image 2026-04-03 at 2.22.18 PM.jpeg" ,
+      "src/assets/Moskha/WhatsApp Image 2026-04-03 at 2.22.19 PM (1).jpeg" ,
+      "src/assets/Moskha/WhatsApp Image 2026-04-03 at 2.22.19 PM (2).jpeg" ,
+      "src/assets/Moskha/WhatsApp Image 2026-04-03 at 2.22.19 PM.jpeg" ,
     ],
   },
   {
-    title: "Music Night",
-    date: "Dec 2025",
+    title: "Dandiya Night",
+    date: "###",
     status: "Completed",
-    image: "https://source.unsplash.com/400x300/?music",
+    image: "src/assets/Dandiya/Dandiyalogo.png",
     gallery: [
-      "https://source.unsplash.com/600x400/?concert",
-      "https://source.unsplash.com/600x400/?band",
-      "https://source.unsplash.com/600x400/?guitar",
+     
+     "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 2.21.39 PM (1).jpeg" ,
+     "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 2.21.39 PM.jpeg" ,
+     "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 2.21.40 PM (1).jpeg" ,
+     "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 2.21.40 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.30 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.31 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.32 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.33 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.34 PM.jpeg" ,
+      "src/assets/Dandiya/WhatsApp Image 2026-04-03 at 6.06.35 PM.jpeg"
     ],
   },
   {
-    title: "Design Competition",
+    title: "Deepostav",
+    date: "###",
+    status: "Completed",
+    image: "src/assets/Deepostav/Ramlogo.png",
+    gallery: [
+      "src/assets/Deepostav/WhatsApp Image 2026-04-03 at 2.30.01 PM (1).jpeg" ,
+      "src/assets/Deepostav/WhatsApp Image 2026-04-03 at 2.30.01 PM.jpeg" ,
+      "src/assets/Deepostav/WhatsApp Image 2026-04-03 at 2.31.01 PM.jpeg"
+    ],
+  },
+  {
+    title: "Jan Jatiya Gaurav Diwas",
     date: "Nov 2025",
     status: "Completed",
-    image: "https://source.unsplash.com/400x300/?design",
+    image: "src/assets/gaurav diwas/Gauravlogo.png",
     gallery: [
-      "https://source.unsplash.com/600x400/?graphic",
-      "https://source.unsplash.com/600x400/?ui",
-      "https://source.unsplash.com/600x400/?creative",
+      "src/assets/gaurav diwas/WhatsApp Image 2026-04-03 at 2.22.07 PM.jpeg" ,
+      "src/assets/gaurav diwas/WhatsApp Image 2026-04-03 at 2.22.08 PM (1).jpeg" ,
+      "src/assets/gaurav diwas/WhatsApp Image 2026-04-03 at 2.22.08 PM.jpeg" ,
+      "src/assets/gaurav diwas/WhatsApp Image 2026-04-03 at 2.22.09 PM.jpeg"
     ],
   },
   {
-    title: "Open Mic",
-    date: "Oct 2025",
+    title: "Club Orientation",
+    date: "###",
     status: "Completed",
-    image: "https://source.unsplash.com/400x300/?mic",
+    image: "src/assets/Orientation/kalarambhlogo.png",
     gallery: [
-      "https://source.unsplash.com/600x400/?mic",
-      "https://source.unsplash.com/600x400/?poetry",
-      "https://source.unsplash.com/600x400/?stage",
+     "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.25.31 PM.jpeg" , 
+     "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.25.39 PM.jpeg" ,
+     "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.26.02 PM.jpeg" ,
+     "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.26.30 PM.jpeg" ,
+     "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.26.30 PM.jpeg" ,
+      "src/assets/Orientation/WhatsApp Image 2026-04-03 at 6.26.37 PM.jpeg"
     ],
   },
 ];
@@ -93,11 +109,21 @@ function Events() {
             }}
             className="cursor-pointer bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden hover:scale-105 transition duration-300 hover:shadow-[0_0_20px_rgba(255,120,200,0.3)]"
           >
-            <img
-              src={event.image}
-              alt={event.title}
-              className="w-full h-48 object-cover"
-            />
+       <div className="w-full h-48 flex items-center justify-center bg-gradient-to-br from-black to-gray-900 relative overflow-hidden">
+  
+  {/* Glow background */}
+  <div className="absolute w-40 h-40 bg-pink-500/10 blur-3xl"></div>
+
+  <img
+    src={event.image}
+    alt={event.title}
+    className="max-h-[75%] max-w-[75%] object-contain opacity-70 transition duration-300 group-hover:opacity-100 group-hover:scale-105"
+  />
+
+  {/* Soft overlay */}
+  <div className="absolute inset-0 bg-black/30"></div>
+
+</div>
 
             <div className="p-4">
               <h2 className="text-xl font-semibold">{event.title}</h2>
@@ -136,12 +162,13 @@ function Events() {
             {/* SLIDER */}
             <div className="flex flex-col items-center">
               
-              <img
-                src={selectedEvent.gallery[currentIndex]}
-                alt="event"
-                className="w-full h-64 object-cover rounded-lg"
-              />
-
+           <div className="w-full h-[350px] flex items-center justify-center bg-black rounded-lg">
+  <img
+    src={selectedEvent.gallery[currentIndex]}
+    alt="event"
+    className="max-h-full max-w-full object-contain"
+  />
+</div>
               <div className="flex justify-between w-full mt-4">
                 
                 <button
