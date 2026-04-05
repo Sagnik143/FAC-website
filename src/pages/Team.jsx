@@ -8,7 +8,7 @@ function Team() {
     {
       name: "Hrishikesh Munde",
       role: "Club Advisor",
-      image: "public/Hrishi Bhaiya.jpeg"
+      image: "/Hrishi Bhaiya.jpeg"
     },
     {
       name: "Baishali Paul",
