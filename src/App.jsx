@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Events from "./pages/Events";
@@ -13,6 +14,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/join" element={<Join />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
