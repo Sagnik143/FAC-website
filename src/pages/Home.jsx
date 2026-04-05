@@ -32,8 +32,9 @@ function Home() {
 
           {/* Heading */}
           <h1 className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2
-                         text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-[Pacifico] leading-tight">
-            <span className="block">
+                         text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-[Righteous] leading-[1.2]">
+
+            <span className="block py-2">
               {Array.from("Fine Arts Club").map((char, index) => (
                 <span
                   key={index}
