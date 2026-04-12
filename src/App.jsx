@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Events from "./pages/Events";
-import Join from "./pages/join";
+import Join from "./pages/Join";
 
 function App() {
   return (
