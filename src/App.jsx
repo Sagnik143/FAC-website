@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Events from "./pages/Events";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/join" element={<Join />} />
       </Routes>
       <Analytics />
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
