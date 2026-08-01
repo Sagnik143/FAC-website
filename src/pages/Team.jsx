@@ -35,7 +35,7 @@ function Team() {
     },
      {
       name: "Jagjeet Singh",
-      role: "Techinical Lead",
+      role: "Technical Lead",
       image: "/Jagjeet singh.jpeg"
     },
      {
@@ -122,7 +122,7 @@ function Team() {
     },
      {
       name: "Ansheeka Bhardwaj",
-      role: "content creation Team Lead",
+      role: "Content Creation Team Lead",
       image: "/Ansheeka.png"
     },
      {
@@ -132,12 +132,12 @@ function Team() {
     },
      {
       name: "Nilanjana Banerjee",
-      role: "conent writing Lead",
+      role: "Content Writing Lead",
       image: "/Nilanjana.png"
     },
      {
       name: "Devotuli Kar",
-      role: "conent writing Team co-Lead",
+      role: "Content Writing Team Co-Lead",
       image: "/Devotuli.png"
     },
 

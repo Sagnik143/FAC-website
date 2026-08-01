@@ -107,7 +107,7 @@ function Events() {
               setSelectedEvent(event);
               setCurrentIndex(0);
             }}
-            className="cursor-pointer bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden hover:scale-105 transition duration-300 hover:shadow-[0_0_20px_rgba(255,120,200,0.3)]"
+            className="group cursor-pointer bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden hover:scale-105 transition duration-300 hover:shadow-[0_0_20px_rgba(255,120,200,0.3)]"
           >
        <div className="w-full h-48 flex items-center justify-center bg-gradient-to-br from-black to-gray-900 relative overflow-hidden">
   
@@ -121,7 +121,7 @@ function Events() {
   />
 
   {/* Soft overlay */}
-  <div className="absolute inset-0 bg-black/30"></div>
+  <div className="absolute inset-0 bg-black/30 pointer-events-none"></div>
 
 </div>
 
@@ -145,8 +145,8 @@ function Events() {
 
       {/* MODAL */}
       {selectedEvent && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
-          <div className="bg-white/10 backdrop-blur-lg p-6 rounded-xl max-w-2xl w-full relative">
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50" onClick={() => setSelectedEvent(null)}>
+          <div className="bg-white/10 backdrop-blur-lg p-6 rounded-xl max-w-2xl w-full relative" onClick={(e) => e.stopPropagation()}>
             
             <button
               onClick={() => setSelectedEvent(null)}

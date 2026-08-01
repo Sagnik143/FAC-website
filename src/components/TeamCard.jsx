@@ -23,7 +23,7 @@ function TeamCard({ name, role, image }) {
             {[1, 2, 1, 3, 1, 1, 2, 1, 3, 2, 1, 2, 1].map((w, i) => (
               <div
                 key={i}
-                className="bg-white rounded-[0.5px]"
+                className="bg-gray-800 rounded-[0.5px]"
                 style={{ width: `${w}px`, height: i % 3 === 0 ? "100%" : "75%" }}
               />
             ))}

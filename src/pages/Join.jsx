@@ -5,7 +5,7 @@ function Join() {
     <div className="min-h-screen bg-black text-white">
       <Navbar />
 
-      <div className="pt-24 pb-16 px-4 flex flex-col items-center">
+      <div className="relative pt-24 pb-16 px-4 flex flex-col items-center">
 
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-2 bg-gradient-to-r from-pink-500 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
